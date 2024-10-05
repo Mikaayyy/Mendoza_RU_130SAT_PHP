@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    @vite(['resources/js/app.js'])
 </head>
 
 <body class="h-full">
@@ -16,8 +17,7 @@
                 <div class="flex h-16 items-center justify-between">
                     <div class="flex items-center">
                         <div class="flex-shrink-0">
-                            <img class="h-8 w-8" src="https://laracasts.com/images/logo/logo-triangle.svg"
-                                 alt="Your Company">
+                        <img class="h-8 w-8 rounded-full" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
                         </div>
                         <div class="hidden md:block">
                             <div class="ml-10 flex items-baseline space-x-4">
